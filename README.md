@@ -1,4 +1,4 @@
-# Bioinformatics Tools Setup
+# Bioinformatics Setup
 - QC: conda activate env_qc
 - Assembly: conda activate env_assembly
 - Prokka: conda activate env_prokka
