@@ -52,8 +52,7 @@ These tools identify antibiotic resistance and virulence factors. It is recommen
 ### Resistance Gene Identifier (RGI)
 #### Installation:
 ```
-conda create -n env_rgi rgi -y
-```
+conda create -n env_rgi -c bioconda -c conda-forge rgi -y
 ```
 conda activate env_rgi
 rgi main --version
@@ -61,7 +60,7 @@ rgi main --version
 ### Prokka (Rapid Prokaryotic Genome Annotation)
 #### Installation
 ```
-conda create -n env_prokka prokka -y
+conda create -n env_prokka -c bioconda -c conda-forge prokka -y
 ```
 #### Verification:
 ```
@@ -71,7 +70,7 @@ prokka --version
 ### VirulenceFinder
 #### Installation:
 ```
-conda create -n env_virulence virulencefinder -y
+conda create -n env_virulence -c bioconda -c conda-forge virulencefinder -y
 ```
 #### Verification:
 ```
