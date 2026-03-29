@@ -4,7 +4,7 @@
 - Prokka: conda activate env_prokka
 - RGI: conda activate env_rgi
 - Virulence: conda activate env_virulence (python -m virulencefinder)
-- 
+
 ## Initial Conda Configuration
 Run these commands once to set up the necessary channels for bioinformatics tools:
 ```
